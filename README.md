@@ -2,24 +2,6 @@
 
 This project is a simple PHP application that includes user registration, login, and a dashboard to display registered users. The application is containerized using Docker.
 
-## Table of Contents
-
-- [Docker PHP Project](#docker-php-project)
-  - [Table of Contents](#table-of-contents)
-  - [Project Structure](#project-structure)
-  - [Prerequisites](#prerequisites)
-  - [Setting Up the Project](#setting-up-the-project)
-  - [Docker Configuration](#docker-configuration)
-    - [Dockerfile](#dockerfile)
-    - [docker-compose.yml](#docker-composeyml)
-  - [Running the Project with Docker](#running-the-project-with-docker)
-  - [Application Walkthrough](#application-walkthrough)
-    - [Registration](#registration)
-    - [Login](#login)
-    - [Dashboard](#dashboard)
-    - [Logout](#logout)
-  - [Useful Docker Commands](#useful-docker-commands)
-  - [Conclusion](#conclusion)
 
 ## Project Structure
 
