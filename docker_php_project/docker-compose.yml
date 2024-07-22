@@ -1,0 +1,14 @@
+version: '3'
+services:
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"   # Docker container port : Host machine port
+    volumes:
+      - .:/var/www/html
+    restart: always
+    environment:
+      MYSQL_HOST: host.docker.internal  # For Windows/Mac, use host.docker.internal to connect to localhost
+      MYSQL_PORT: 3306  # MySQL port on the host machine
